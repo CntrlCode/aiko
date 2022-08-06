@@ -1,0 +1,23 @@
+{
+  "name": "aiko",
+  "version": "1.0.0",
+  "description": "// think of catchy description",
+  "main": "./aiko/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "code",
+    "codemirror",
+    "javascript"
+  ],
+  "author": "lillupad",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.10"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.33.0"
+  }
+}

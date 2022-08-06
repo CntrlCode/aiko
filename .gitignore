@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# CodeMirror
+aiko/lib/codemirror-5.65.7
