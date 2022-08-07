@@ -1,7 +1,7 @@
 {
   "name": "aiko",
-  "version": "1.0.0",
-  "description": "// think of catchy description",
+  "version": "0.1",
+  "description": "an unusual code editor written in javascript",
   "main": "./aiko/main.js",
   "scripts": {
     "start": "electron ."
@@ -13,11 +13,8 @@
     "javascript"
   ],
   "author": "lillupad",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^19.0.10"
-  },
-  "dependencies": {
-    "monaco-editor": "^0.33.0"
   }
 }
