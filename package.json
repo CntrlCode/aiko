@@ -1,0 +1,20 @@
+{
+  "name": "aiko",
+  "version": "0.1",
+  "description": "an unusual code editor written in javascript",
+  "main": "./aiko/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "code",
+    "codemirror",
+    "javascript"
+  ],
+  "author": "lillupad",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.10"
+  }
+}
