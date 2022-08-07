@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+*/.DS_Store
+
+aiko/lib/codemirror-5.65.7
