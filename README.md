@@ -13,3 +13,9 @@ you will need `node`, `npm`, and `git`
 2. open the `aiko` repo in a terminal
 3. run the command `npm install` to install the dependencies
 4. run `npm start` to open aiko
+
+## todo
+* add support for custom themes
+* add syntax highlighting for more languages
+* migrate to tauri
+* migrate to codemirror 6
