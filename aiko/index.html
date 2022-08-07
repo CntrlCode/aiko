@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lib/css/title.css" rel="stylesheet">
+    <link href="lib/css/main.css" rel="stylesheet">
+    <link href="lib/css/command.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/codemirror-5.65.7/lib/codemirror.css">
+    <title>aiko</title>
+</head>
+<body>
+    <div id="app">
+        <div id="title">
+            <span id="wintitle">aiko @ <span id="cwd"></span></span>
+        </div>
+    </div>
+    <div id="commandinput">
+        <input type="text" id="command">
+    </div>
+    <textarea id="editor">
+/************************************************************
+*        _  _                                               *   
+*  __ _ (_)| |__ ___                                        *
+* / _` || || / // _ \                                       *
+* \__/_||_||_\_\\___/                                       *
+* aiko v1.0                                                 *
+* ~~~~~~~~~~~~~~~~~~~                                       *
+*                                                           *
+* press (ctrl/cmd)+/ to open the command line               *
+* type "chdir [folder]" to open [folder]                    *
+* then, type "open [file] to open [file] in the text editor *
+* finally, type "write" to save the contents of the file    *
+*                                                           *
+* for full AikoScript reference, see [todo: create ref]     *
+************************************************************/
+
+function foo(bar) {
+    console.log(bar);
+}
+
+foo("hello aiko!");
+    </textarea>
+    <span id="mode">javascript</span>
+    <script src="lib/js/configmanager.js"></script>
+    <script src="lib/js/commands.js"></script>
+    <script src="lib/codemirror-5.65.7/lib/codemirror.js"></script>
+    <script src="lib/codemirror-5.65.7/mode/javascript/javascript.js"></script>
+    <script src="lib/codemirror-5.65.7/mode/python/python.js"></script>
+    <script src="lib/codemirror-5.65.7/mode/clike/clike.js"></script>
+    <script src="lib/js/codemirror.js"></script>
+</body>
+</html>
