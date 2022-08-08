@@ -11,6 +11,7 @@ you will need `node`, `npm`, and `git`
     * `gh repo clone lillupad/aiko` via github cli
     * or using github desktop
 2. open the `aiko` repo in a terminal
+3. **!!READ [IMPORTANT.md](aiko/lib/IMPORTANT.md) FOR INSTRUCTIONS ON CONFIGURING CODEMIRROR!!**
 3. run the command `npm install` to install the dependencies
 4. run `npm start` to open aiko
 

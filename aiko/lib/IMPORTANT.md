@@ -8,3 +8,14 @@ the project should then look like this:
         - lib/
             - codemirror-5.65.7/
 e.t.c. (all the other files and folders)
+</pre>
+
+then go into codemirror-5.65.7/lib/codemirror.css and change lines 5 & 6
+```css
+font-family: monospace;
+height: 300px;
+```
+to
+```css
+height: 91vh;
+```
