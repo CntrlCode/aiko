@@ -1,6 +1,7 @@
 # aiko
-![license](https://img.shields.io/github/license/lillupad/aiko.svg)
-![electron](https://img.shields.io/badge/Electron-191970?style=flat&logo=Electron&logoColor=white)
+![version](https://img.shields.io/github/package-json/v/lillupad/aiko)
+![license](https://img.shields.io/github/license/lillupad/aiko)
+<br>
 an unusual code editor written in javascript
 
 ## installation
