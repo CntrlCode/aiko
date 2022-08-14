@@ -1,6 +1,6 @@
 {
   "name": "aiko",
-  "version": "0.1",
+  "version": "0.0.1-dev.0",
   "description": "an unusual code editor written in javascript",
   "main": "./aiko/main.js",
   "scripts": {
